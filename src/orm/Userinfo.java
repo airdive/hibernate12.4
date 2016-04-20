@@ -10,7 +10,7 @@ import java.util.Date;
 public class Userinfo  implements java.io.Serializable {
 
 
-    // Fields    
+    // Fields    shu
 
      private Long id;
      private String username;
