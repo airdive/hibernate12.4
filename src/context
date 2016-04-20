@@ -34,9 +34,10 @@
 	
 	<Resource name="jdbc/liuis"
 		type="javax.sql.DataSource"
-		driverClassName="oracle.jdbc.OracleDriver"
+		driverClassName="oracle.jdbc.driver.OracleDriver"
 		url="jdbc:oracle:thin:@localhost:1521:orcl"
 		username="scott" password="tiger" maxActive="200" maxIdle="10"
 		maxWait="-1"
+	/>
 
 </Context>
